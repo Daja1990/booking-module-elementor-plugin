@@ -1,0 +1,112 @@
+#bookingForm label{
+    padding: 5px!important;
+    margin-bottom: 5px!important;
+    text-align: center!important;
+    width: 100%!important;
+    }
+    
+    #bookingForm{
+    display: flex!important;
+    flex-wrap: wrap!important;
+    align-items: end!important;
+    justify-content: center!important;
+    color: white!important;
+    /* padding: 20px 20px 30px 20px!important; */
+    font-family: "Barlow", Sans-serif;
+    }
+    
+    .form-box{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    height: 50px!important;
+    /* width: 230px; */
+    background: #fff!important;
+    color: #000!important;
+    border-right: 1px solid #AB8B55!important;
+    margin-top: 10px!important;
+    }
+    
+    .children-box{
+    height: 50px!important;
+    }
+    
+    .input-style{
+    text-align: center!important;
+    border: none!important;
+    padding: 4px!important;
+    width: 50px!important;
+    cursor: pointer!important;
+    }
+    
+    #arrivalDate, #departureDate{
+    width: 110px !important;
+    }
+
+    #bookingForm label{
+    padding: 0 10px 0 20px!important;
+    }
+    
+    
+    #bookingForm button{
+    height: 50px!important;
+    padding: 0 10px 0 10px!important;
+    background: #AB8B55!important;
+    color: white!important;
+    border: none!important;
+    border-radius: 0px!important;
+    cursor: pointer!important;
+    }
+    
+    /* Hide the default placeholder text */
+     #bookingForm input[type="date"]::-webkit-input-placeholder {
+    color: transparent!important;
+    }
+    
+    #bookingForm input[type="date"]:-moz-placeholder {
+    color: transparent!important;
+    }
+    
+    #bookingForm input[type="date"]::-moz-placeholder {
+    color: transparent!important;
+    }
+    
+    #bookingForm input[type="date"]:-ms-input-placeholder {
+    color: transparent!important;
+    }
+    
+    /* Hide the date input text and show only the icon */
+    #bookingForm input[type="date"] {
+    color: transparent!important;
+    text-align: right!important;
+    }
+    
+    /* Restore the text color when user interacts with the input */
+    #bookingForm input[type="date"]:focus,
+    #bookingForm input[type="date"]:valid {
+    color: initial!important;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .form-box{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+      
+    button{
+    width: 100%!important;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+      
+    .input-style{
+    width: 100px!important;
+    margin-right: 25px!important;
+    }
+      
+    #bookingForm label{
+    text-align: left!important;
+    }
+    }
