@@ -21,7 +21,7 @@ function generateBookingURL(event) {
     const sanitizedChildren2 = sanitizeInput(children2);
 
     // Construct the URL with the sanitized inputs
-    const baseURL = 'https://booking.hotelsvanen.dk/hotel-svanen/hotel-svanen-billund/booking/ophold/';
+    const baseURL = 'https://booking.hotelname.dk/hotel-name/hotel-name/booking/ophold/';
     const url = `${baseURL}?ArrivalDate=${sanitizedArrivalDate}&DepartureDate=${sanitizedDepartureDate}&Adults=${sanitizedAdults}&Children1=${sanitizedChildren1}&Children2=${sanitizedChildren2}`;
 
     // Open the URL in a new window

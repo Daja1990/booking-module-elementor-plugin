@@ -52,7 +52,7 @@ class Elementor_Hello_World_Widget_1 extends \Elementor\Widget_Base {
         <label for="children2">Børn (0-2 år):</label>
         <input class="input-style" type="number" id="children2" name="children2" value="0">
       </div>
-        <button type="submit">Søg/Book</button>
+        <button type="submit">Søg/Bookes</button>
     </form>
         </div>
         <?php

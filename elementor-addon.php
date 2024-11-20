@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Booking Module
  * Description: Custom Elementor booking moule.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Dannie Anderson
  * Author URI:  https://byanderson.dk/
  * Text Domain: byanderson-booking-plugin
