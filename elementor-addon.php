@@ -20,6 +20,18 @@ function elementor_test_addon() {
 
 	// Load plugin file
 	require_once( __DIR__ . '/includes/plugin.php' );
+	require_once( __DIR__ . '/GHPluginUpdater.php');
+
+    if ( is_admin() ) {
+        // Define constants for GitHub Plugin Updater
+        define( 'GH_REQUEST_URI', 'https://api.github.com/repos/%s/%s/releases' );
+        define( 'GHPU_USERNAME', 'Daja1990' );
+        define( 'GHPU_REPOSITORY', 'booking-module-elementor-plugin' );
+
+        // Initialize GitHub Plugin Updater
+        $updater = new GhPluginUpdater( __FILE__ );
+        $updater->init();
+    }
 
 	// Run the plugin
 	\Elementor_Test_Addon\Plugin::instance();
