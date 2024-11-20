@@ -27,8 +27,9 @@ function elementor_test_addon() {
         define( 'GH_REQUEST_URI', 'https://api.github.com/repos/%s/%s/releases' );
         define( 'GHPU_USERNAME', 'Daja1990' );
         define( 'GHPU_REPOSITORY', 'booking-module-elementor-plugin' );
+	define( 'GHPU_AUTH_TOKEN', '' ); // Leave this empty if you're not using a token
 
-		// Initialize GitHub Plugin Updater
+	// Define the URL for the zipball of your release
         $updater = new GhPluginUpdater( __FILE__ );
         $updater->init();
     }
