@@ -28,9 +28,6 @@ function elementor_test_addon() {
         define( 'GHPU_USERNAME', 'Daja1990' );
         define( 'GHPU_REPOSITORY', 'booking-module-elementor-plugin' );
 
-		// Define the URL for the zipball of your release
-		define( 'GHPU_ZIPBALL_URL', 'https://github.com/Daja1990/booking-module-elementor-plugin/archive/refs/tags/v1.0.1.zip' );
-
 		// Initialize GitHub Plugin Updater
         $updater = new GhPluginUpdater( __FILE__ );
         $updater->init();
