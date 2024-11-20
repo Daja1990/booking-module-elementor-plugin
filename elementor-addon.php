@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Booking Module
  * Description: Custom Elementor booking moule.
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      Dannie Anderson
  * Author URI:  https://byanderson.dk/
  * Text Domain: byanderson-booking-plugin
@@ -13,7 +13,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+	exit; // Exit if accessed directly. !
 }
 
 function elementor_test_addon() {
